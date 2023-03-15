@@ -1,0 +1,449 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box-1 {
+  padding: 7%;
+  color: green;
+  text-align: center;
+}
+
+.box-1 h1 {
+  font-weight: bold;
+  font-size: 500%;
+}
+
+.box-1 h1:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.box-2 {
+  background-color: #06283D;
+  height: 30%;
+  padding: 5%;
+  padding-left: 20%;
+  width: 100%;
+}
+
+.box-2 button {
+  height: 70px;
+  width: 120px;
+  margin: 5px;
+  background-color: green;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.box-2 button:hover {
+  background-color: blue;
+}
+
+.box-3 {
+  padding: 10%;
+}
+
+.box-3 video {
+  width: 100%;
+}
+
+.box-3 h1 {
+  color: green;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.box-3 h2 {
+  color: blue;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.box-3 h3 {
+  color: green;
+  position: relative;
+  top: 50%;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.box-3 h4 {
+  color: blue;
+  position: relative;
+  top: 50%;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+/* .................. start images ............... */
+.box-4 img {
+  width: 70%;
+  margin-left: 25%;
+  height: 80%;
+}
+
+.box-4 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: blue;
+  margin: 3% 24%;
+}
+
+.box-4 h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: green;
+}
+.box-4 p, ul{
+  color: aliceblue;
+}
+.box-3{
+  background-image: url("../images/15.jpg");
+}
+.box-5 {
+  background-color: #06283D;
+  box-sizing: border-box;
+}
+
+.main {
+  margin-left: 16%;
+  padding-bottom: 30px;
+}
+
+.box-5 h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: green;
+  padding-top: 30px;
+}
+
+.box-5 .first {
+  width: 170%;
+  padding-top: 8px;
+  border: 5px solid white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  height: 5rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* ........ 2 ...... */
+.box-5 .second {
+  width: 170%;
+  padding-top: 8px;
+  border: 5px solid white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  height: 5rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* ........ 3 ...... */
+.box-5 .third {
+  width: 170%;
+  padding-top: 8px;
+  border: 5px solid white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  height: 5rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* ........................ box 6 ............................. */
+.main-1 {
+  background-color: #06283D;
+  padding: 7%;
+  width: 100%;
+}
+
+.box-6 {
+  color: aliceblue;
+  text-align: center;
+  width: 100%;
+}
+
+.row {
+  margin-bottom: 7%;
+}
+
+.box-6 h2 {
+  margin-left: 5%;
+}
+
+.box-6 img {
+  margin-left: 100%;
+  margin-top: 4%;
+  width: 10rem;
+}
+
+.col-lg-7 {
+  text-align: left;
+  padding-top: 0%;
+  margin-left: 7.5%;
+}
+
+.box-6 p {
+  padding-top: 90px;
+}
+.box-6 .fname{
+  font-size: 40px;
+}
+.box-6 .fnamea{
+  font-size: 40px;
+}
+.col-lg-7 button {
+  width: 20%;
+  height: 25%;
+  margin-left: -5%;
+  border: 2px solid green;
+  background-color: transparent;
+  color: aliceblue;
+
+}
+
+.col-lg-7 button:hover {
+  border: 2px solid blue;
+  color: green;
+  font-weight: bold;
+}
+
+/* ...............................  footer ............................ */
+.footer-a {
+  padding: 6%;
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.footer-a a {
+  text-decoration: none;
+}
+
+.footer-a a:hover {
+  color: green;
+}
+
+.footer-a i {
+  font-size: 30px;
+  padding: 5px;
+}
+.box-4 {
+  background-image: url("../images/17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* ....................................... START MEDIA QURIES ............................... */
+@media screen and (max-width:1440px) {
+  .box-6 h2 {
+    margin-left: 7%;
+  }
+
+  .box-6 img {
+    margin-left: 100%;
+    margin-top: 4%;
+    width: 10rem;
+  }
+
+  .col-lg-7 {
+    text-align: left;
+    padding-top: 2.8%;
+    margin-left: 7.5%;
+  }
+
+  .col-lg-7 p {
+    padding-top: 25px;
+    font-size: 20px;
+    margin-left: 7%;
+  }
+
+  .col-lg-7 button {
+    width: 50%;
+    height: 25%;
+    margin-left: -5%;
+    border: 2px solid green;
+    background-color: transparent;
+    color: aliceblue;
+
+  }
+}
+
+@media screen and (max-width:1024PX) {
+  .box-6 h2 {
+    margin-left: 20%;
+  }
+
+  .col-lg-7 p {
+    padding-top: 25px;
+    font-size: 20px;
+    margin-left: 20%;
+  }
+
+  .col-lg-7 button {
+    margin-top: 5%;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .box-6 img {
+    margin-left: 0%;
+    margin-top: 4%;
+    width: 10rem;
+  }
+
+  .col-lg-7 button {
+    margin-left: 20%;
+    margin-top: 3%;
+  }
+
+  .box-4 .col-lg-6 .big-img {
+    margin-left: 50px;
+  }
+
+  .box-1 h1 {
+    font-size: 290%;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .box-1 h1 {
+    font-size: 200%;
+  }
+
+  .box-2 button {
+    width: 40%;
+  }
+
+  .box-3 h1,
+  h2 {
+    font-size: 100%;
+  }
+
+  .box-4 h1 {
+    margin-top: 70px;
+  }
+
+  .box-4 h2 {
+    font-size: 170%;
+  }
+
+  .box-3 h4 {
+    font-size: 3rem;
+  }
+
+  .box-3 h3 {
+    font-size: 3rem;
+  }
+
+  .box-5 h1 {
+    font-size: 200%;
+  }
+
+  .box-5 .first {
+    width: 100%;
+    margin-left: -10%;
+  }
+
+  .box-5 .second {
+    width: 100%;
+    margin-left: -10%;
+    height: 50%;
+  }
+
+  .box-5 .third {
+    width: 100%;
+    margin-left: -10%;
+    height: 50%;
+  }
+
+  .box-6 h2 {
+    font-size: 140%;
+    margin-left: 8%;
+  }
+
+  .box-6 .fname {
+    margin-left: 20%;
+    font-size: 140%;
+  }
+
+  .box-6 .fnamea {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width:358px) {
+  .box-6 .fname {
+    margin-left: 5%;
+
+  }
+
+  .box-3 h1 {
+    font-size: 24px;
+  }
+.box-6 H2{
+  font-size: 20PX;
+}
+  .box-3 h2 {
+    font-size: 29px;
+  }
+  .box-6 p{
+    margin-left: 10%;
+    margin-top: -5%;
+    font-size: 15PX;
+  }
+}
+@media screen and (min-width:320px) {
+  .box-6 .fname {
+    margin-left: 5.5%;
+    margin-top: 3%;
+
+  }
+
+  .box-3 h1 {
+    font-size: 24px;
+  }
+.box-6 H2{
+  font-size: 30PX;
+  margin-top: 3%;
+}
+  .box-3 h2 {
+    font-size: 29px;
+  }
+  .box-6 p{
+    margin-left: 5.5%;
+    margin-top: -5%;
+    font-size: 15PX;
+  }
+  .box-6 button{
+    font-size: 13px;
+    margin-top: 2%;
+    margin-bottom: 20%;
+    width: 150PX;
+    height: 50PX;
+    margin-left: 5%;
+  }
+  .box-4 h1{
+   font-size: 30px;
+  }
+  .box-3 h3{
+    font-size: 30px;
+  }
+  .box-3 h4{
+    font-size: 32px;
+  }
+}
